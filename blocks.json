@@ -1256,44 +1256,6 @@
 			"id": 23
 		},
         {
-            "data": {
-                "0": {
-                    "mapcolor": [
-                        218,
-                        210,
-                        158
-                    ],
-                    "name": "Sandstone",
-                    "tex": [
-                        0,
-                        12
-                    ]
-                },
-                "1": {
-                    "mapcolor": [
-                        218,
-                        210,
-                        158
-                    ],
-                    "name": "Chiseled Sandstone",
-                    "tex": [
-                        5,
-                        14
-                    ]
-                },
-                "2": {
-                    "mapcolor": [
-                        218,
-                        210,
-                        158
-                    ],
-                    "name": "Smooth Sandstone",
-                    "tex": [
-                        6,
-                        14
-                    ]
-                }
-            },
 			"name": "Sandstone",
 			"idStr": "sandstone",
 			"mapcolor": [218,210,158],
