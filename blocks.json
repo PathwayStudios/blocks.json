@@ -11751,6 +11751,50 @@
 			"id": 209,
 			"name": "End Gateway"
 		},
+        {
+			"idStr": "magma",
+			"tex": [18,13],
+			"brightness": 3,
+			"id": 213,
+			"name": "Magma Block"
+		},
+        {
+			"idStr": "nether_wart_block",
+			"tex": [18,14],
+			"id": 214,
+			"name": "Nether Wart Block"
+		},
+        {
+			"idStr": "red_nether_brick",
+			"tex": [18,15],
+			"id": 215,
+			"name": "Red Nether Brick"
+		},
+        {
+            "data": {
+                "0": {
+                    "name": "Bone Block (Up)",
+					"tex": [
+						11,
+						16
+					]
+                },
+                "1": {
+                    "name": "Bone Block (Side)",
+					"tex": [
+						11,
+						17
+					]
+                }
+            },
+            "id": 216,
+            "idStr": "bone_block",
+            "name": "Bone Block",
+            "tex": [
+                11,
+                16
+            ]
+        },		
 		{
             "id": 218,
             "name": "Shulker Box",
