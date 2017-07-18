@@ -11770,31 +11770,6 @@
 			"id": 215,
 			"name": "Red Nether Brick"
 		},
-        {
-            "data": {
-                "0": {
-                    "name": "Bone Block (Up)",
-					"tex": [
-						11,
-						16
-					]
-                },
-                "1": {
-                    "name": "Bone Block (Side)",
-					"tex": [
-						11,
-						17
-					]
-                }
-            },
-            "id": 216,
-            "idStr": "bone_block",
-            "name": "Bone Block",
-            "tex": [
-                11,
-                16
-            ]
-        },		
 		{
             "id": 218,
             "name": "Shulker Box",
