@@ -1938,45 +1938,31 @@
             ],
             "type": "DECORATION_CROSS"
         },
-        {
-            "data": {
-                "0": {
-                    "name": "Grass",
-                    "tex": [
-                        7,
-                        2
-                    ]
-                },
-                "1": {
-                    "name": "Grass",
-                    "tex": [
-                        7,
-                        2
-                    ]
-                },
-                "2": {
-                    "name": "Fern",
-                    "tex": [
-                        8,
-                        3
-                    ]
-                }
-            },
-            "id": 31,
-            "idStr": "tallgrass",
-            "mapcolor": [
-                104,
-                156,
-                53
-            ],
-            "name": "Tall Grass",
-            "opacity": 0,
-            "tex": [
-                7,
-                2
-            ],
-            "type": "DECORATION_CROSS"
-        },
+		{
+			"opacity": 0,
+			"name": "Tall Grass",
+			"type": "DECORATION_CROSS",
+			"idStr": "tallgrass",
+			"tex": [7,2],
+			"mapcolor": [104,156,53],
+			"data": {
+				"1": {
+					"tex": [7,2],
+					"search": "tall",
+					"name": "Grass"
+				},
+				"0": {
+					"tex": [7,3],
+					"search": "shrub",
+					"name": "Dead Bush (Drops Seeds)"
+				},
+				"2": {
+					"tex": [8,3],
+					"name": "Fern"
+				}
+			},
+			"id": 31
+		},
         {
             "id": 32,
             "idStr": "deadbush",
@@ -2829,7 +2815,6 @@
                 200,
                 200
             ],
-			"name": "Stone Slab",
             "tex": [
                 6,
                 0
@@ -10107,6 +10092,87 @@
             ],
             "type": "DECORATION_CROSS"
         },
+		{
+			"opacity": 0,
+			"name": "Standing Banner",
+			"idStr": "standing_banner",
+			"tex": [19,3],
+			"mapcolor": [20,20,20],
+			"data": {
+				"11": {
+					"name": "Standing Banner (East-NorthEast)"
+				},
+				"10": {
+					"name": "Standing Banner (NorthEast)"
+				},
+				"13": {
+					"name": "Standing Banner (East-SouthEast)"
+				},
+				"12": {
+					"name": "Standing Banner (East)"
+				},
+				"15": {
+					"name": "Standing Banner (South-SouthEast)"
+				},
+				"14": {
+					"name": "Standing Banner (SouthEast)"
+				},
+				"1": {
+					"name": "Standing Banner (South-SouthWest)"
+				},
+				"0": {
+					"name": "Standing Banner (South)"
+				},
+				"3": {
+					"name": "Standing Banner (West-SouthWest)"
+				},
+				"2": {
+					"name": "Standing Banner (SouthWest)"
+				},
+				"5": {
+					"name": "Standing Banner (West-NorthWest)"
+				},
+				"4": {
+					"name": "Standing Banner (West)"
+				},
+				"7": {
+					"name": "Standing Banner (North-NorthWest)"
+				},
+				"6": {
+					"name": "Standing Banner (NorthWest)"
+				},
+				"9": {
+					"name": "Standing Banner (North-NorthEast)"
+				},
+				"8": {
+					"name": "Standing Banner (North)"
+				}
+			},
+			"id": 176
+		},
+		{
+			"opacity": 0,
+			"search": "mount, mounted",
+			"name": "Wall Banner",
+			"idStr": "wall_banner",
+			"tex": [19,3],
+			"mapcolor": [20,20,20],
+			"data": {
+				"3": {
+					"name": "Wall Banner (South)"
+				},
+				"2": {
+					"name": "Wall Banner (North)"
+				},
+				"5": {
+					"name": "Wall Banner (East)"
+				},
+				"4": {
+					"name": "Wall Banner (West)"
+				}
+			},
+			"id": 177
+		},		
         {
             "data": {
                 "0": {
@@ -11751,25 +11817,6 @@
 			"brightness": 15,
 			"id": 209,
 			"name": "End Gateway"
-		},
-        {
-			"idStr": "magma",
-			"tex": [18,13],
-			"brightness": 3,
-			"id": 213,
-			"name": "Magma Block"
-		},
-        {
-			"idStr": "nether_wart_block",
-			"tex": [18,14],
-			"id": 214,
-			"name": "Nether Wart Block"
-		},
-        {
-			"idStr": "red_nether_brick",
-			"tex": [18,15],
-			"id": 215,
-			"name": "Red Nether Brick"
 		},
 		{
             "id": 218,
